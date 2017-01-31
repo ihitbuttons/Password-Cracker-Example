@@ -16,7 +16,7 @@ class StaticPasswordGenerator
         '0', '1', '2', '3', '4', '5', '6', '7', '8' , '9'
         ];
 
-    static public function generatePW (array $argumentArray)
+    static public function generatePW ($argumentArray)
     {
         //get arguments
         $numberCharactersGenerate = $argumentArray["numberCharactersGenerate"];
